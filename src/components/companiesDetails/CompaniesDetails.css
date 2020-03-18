@@ -1,0 +1,58 @@
+.companiesDetails {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  min-height: 100vh;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-top: 30px;
+  background-color: rgba(152, 220, 235, 0.5);
+  font-size: 1.2rem;
+}
+.companiesDetails__header {
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  text-transform: uppercase;
+}
+.companiesDetails__id,
+.companiesDetails__name,
+.companiesDetails__city,
+.companiesDetails__average-income,
+.companiesDetails__last-month-income {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  padding: 5px;
+}
+.companiesDetails span {
+  width: 100%;
+  font-weight: bold;
+}
+.companiesDetails span::first-letter {
+  text-transform: uppercase;
+}
+.companiesDetails a {
+  position: absolute;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  text-transform: uppercase;
+}
+.companiesDetails__btn {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(152, 220, 235, 0.3);
+  border: none;
+}
+.companiesDetails__btn:hover {
+  background-color: rgba(152, 220, 235, 0.7);
+}
+/*# sourceMappingURL=UserDetails.css.map */

@@ -1,0 +1,46 @@
+.table td a {
+  display: block;
+}
+.table tbody tr:hover {
+  background-color: rgb(222, 226, 230, 0.3);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+  .table thead {
+    display: none;
+  }
+  .table,
+  .table tbody,
+  .table tr,
+  .table td {
+    display: block;
+    width: 100%;
+  }
+  .table tr {
+    margin-bottom: 15px;
+  }
+  .table td {
+    text-align: right;
+    position: relative;
+  }
+  .table td:hover {
+    background-color: rgb(222, 226, 230, 0.3);
+    cursor: pointer;
+  }
+  .table td:before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    width: 50%;
+    text-align: left;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 5%;
+    z-index: -1;
+  }
+
+  .table tbody tr:hover {
+    background-color: none;
+  }
+}
