@@ -1,4 +1,19 @@
+## General info
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Companies - comparision app,
+How to use :
+
+- clone or download on Deskopt
+- npm install
+- npm start
+
+App Description:
+
+- input search allows you to search data by Company name
+- input select lets you choose the length of the displayed list
+- clicking on a list item displays the details
+- pagination list that allows you to go to the next list with data
 
 ## Available Scripts
 
@@ -66,3 +81,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+```
+
+```
